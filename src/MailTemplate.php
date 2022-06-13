@@ -16,8 +16,8 @@ class MailTemplate
                     <body>
                         <p>
                             Follow the link for validate email address 
-                            <a href="http://{$_SERVER['SERVER_NAME']}/validEmail?code={$emailCode}">
-                            http://{$_SERVER['SERVER_NAME']}/validEmail?code={$emailCode}
+                            <a href="http://{$_SERVER['SERVER_NAME']}/api/account/update/email/{$emailCode}">
+                            http://{$_SERVER['SERVER_NAME']}/api/account/update/email/{$emailCode}
                             </a>
                         </p>
                         <p>Thank's!</p>
