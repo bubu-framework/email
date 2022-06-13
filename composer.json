@@ -1,0 +1,27 @@
+{
+    "name": "bubu-framework/email",
+    "description": "Bubu-framework's email add-on",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/bubu-framework/email",
+    "authors": [
+        {
+            "name": "QuentinBubu",
+            "email": "QuentinBubu.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bubu\\Mail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bubu\\Mail\\Tests\\" : "tests/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
